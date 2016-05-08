@@ -400,6 +400,10 @@ class YiiBase
 	public static function autoload($className,$classMapOnly=false)
 	{
 		// use include so that the error PHP file may appear
+		if(preg_match('/smarty/i', $className)){      //只要类名包含smarty的，无论大小写，都返回，这样就跳出了YII自动加载类而去执行                                                                                  SMARTY的自动加载类函数了
+			return;
+
+		}
 		if(isset(self::$classMap[$className]))
 			include(self::$classMap[$className]);
 		elseif(isset(self::$_coreClasses[$className]))
