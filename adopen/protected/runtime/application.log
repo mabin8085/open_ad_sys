@@ -23,3 +23,325 @@ REQUEST_URI=/index.php
 in /data/nginx/www/adopen/protected/views/layouts/main.php (51)
 in /data/nginx/www/adopen/protected/views/layouts/column1.php (6)
 in /data/nginx/www/adopen/protected/controllers/SiteController.php (32)
+2016/05/08 16:13:51 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.CSmarty" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /data/nginx/www/framework/YiiBase.php:323
+Stack trace:
+#0 /data/nginx/www/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /data/nginx/www/framework/base/CModule.php(393): YiiBase::createComponent(Array)
+#2 /data/nginx/www/framework/base/CModule.php(103): CModule->getComponent('smarty')
+#3 /data/nginx/www/adopen/protected/controllers/SiteController.php(32): CModule->__get('smarty')
+#4 /data/nginx/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#5 /data/nginx/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /data/nginx/www/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /data/nginx/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /data/nginx/www/framework/web/CWebApplication.php(282): CController->run('')
+#9 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#10 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /data/nginx/www/adopen/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php
+---
+2016/05/08 16:20:38 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.CSmarty" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /data/nginx/www/framework/YiiBase.php:323
+Stack trace:
+#0 /data/nginx/www/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /data/nginx/www/framework/base/CModule.php(393): YiiBase::createComponent(Array)
+#2 /data/nginx/www/framework/base/CModule.php(103): CModule->getComponent('smarty')
+#3 /data/nginx/www/adopen/protected/components/Controller.php(15): CModule->__get('smarty')
+#4 /data/nginx/www/framework/web/CWebApplication.php(281): Controller->init()
+#5 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#6 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /data/nginx/www/adopen/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php
+---
+2016/05/08 16:21:12 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.CSmarty" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /data/nginx/www/framework/YiiBase.php:323
+Stack trace:
+#0 /data/nginx/www/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /data/nginx/www/framework/base/CModule.php(393): YiiBase::createComponent(Array)
+#2 /data/nginx/www/framework/base/CModule.php(103): CModule->getComponent('smarty')
+#3 /data/nginx/www/adopen/protected/components/Controller.php(15): CModule->__get('smarty')
+#4 /data/nginx/www/framework/web/CWebApplication.php(281): Controller->init()
+#5 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#6 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /data/nginx/www/adopen/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php
+---
+2016/05/08 16:22:33 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.CSmarty" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /data/nginx/www/framework/YiiBase.php:323
+Stack trace:
+#0 /data/nginx/www/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /data/nginx/www/framework/base/CModule.php(393): YiiBase::createComponent(Array)
+#2 /data/nginx/www/framework/base/CModule.php(103): CModule->getComponent('smarty')
+#3 /data/nginx/www/adopen/protected/components/Controller.php(15): CModule->__get('smarty')
+#4 /data/nginx/www/framework/web/CWebApplication.php(281): Controller->init()
+#5 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#6 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /data/nginx/www/adopen/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php
+---
+2016/05/08 16:22:34 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.CSmarty" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /data/nginx/www/framework/YiiBase.php:323
+Stack trace:
+#0 /data/nginx/www/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /data/nginx/www/framework/base/CModule.php(393): YiiBase::createComponent(Array)
+#2 /data/nginx/www/framework/base/CModule.php(103): CModule->getComponent('smarty')
+#3 /data/nginx/www/adopen/protected/components/Controller.php(15): CModule->__get('smarty')
+#4 /data/nginx/www/framework/web/CWebApplication.php(281): Controller->init()
+#5 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#6 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /data/nginx/www/adopen/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php
+---
+2016/05/08 16:25:05 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.CSmarty" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /data/nginx/www/framework/YiiBase.php:323
+Stack trace:
+#0 /data/nginx/www/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /data/nginx/www/framework/base/CModule.php(393): YiiBase::createComponent(Array)
+#2 /data/nginx/www/framework/base/CModule.php(103): CModule->getComponent('smarty')
+#3 /data/nginx/www/adopen/protected/components/Controller.php(15): CModule->__get('smarty')
+#4 /data/nginx/www/framework/web/CWebApplication.php(281): Controller->init()
+#5 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#6 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /data/nginx/www/adopen/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php
+---
+2016/05/08 16:25:59 [error] [php] include(Smarty_Internal_Data.php): failed to open stream: No such file or directory (/data/nginx/www/framework/YiiBase.php:432)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(85): spl_autoload_call()
+#1 /data/nginx/www/adopen/protected/extensions/CSmarty.php(2): require_once()
+#2 /data/nginx/www/framework/YiiBase.php(321): require()
+#3 /data/nginx/www/framework/YiiBase.php(196): import()
+#4 /data/nginx/www/framework/base/CModule.php(393): createComponent()
+#5 /data/nginx/www/framework/base/CModule.php(103): CWebApplication->getComponent()
+#6 /data/nginx/www/adopen/protected/components/Controller.php(15): CWebApplication->__get()
+#7 /data/nginx/www/framework/web/CWebApplication.php(281): SiteController->init()
+#8 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php (85)
+in /data/nginx/www/adopen/protected/extensions/CSmarty.php (2)
+in /data/nginx/www/adopen/protected/components/Controller.php (15)
+2016/05/08 16:26:01 [error] [php] include(Smarty_Internal_Data.php): failed to open stream: No such file or directory (/data/nginx/www/framework/YiiBase.php:432)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(85): spl_autoload_call()
+#1 /data/nginx/www/adopen/protected/extensions/CSmarty.php(2): require_once()
+#2 /data/nginx/www/framework/YiiBase.php(321): require()
+#3 /data/nginx/www/framework/YiiBase.php(196): import()
+#4 /data/nginx/www/framework/base/CModule.php(393): createComponent()
+#5 /data/nginx/www/framework/base/CModule.php(103): CWebApplication->getComponent()
+#6 /data/nginx/www/adopen/protected/components/Controller.php(15): CWebApplication->__get()
+#7 /data/nginx/www/framework/web/CWebApplication.php(281): SiteController->init()
+#8 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php (85)
+in /data/nginx/www/adopen/protected/extensions/CSmarty.php (2)
+in /data/nginx/www/adopen/protected/components/Controller.php (15)
+2016/05/08 16:26:39 [error] [php] include(Smarty_Internal_Data.php): failed to open stream: No such file or directory (/data/nginx/www/framework/YiiBase.php:432)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(85): spl_autoload_call()
+#1 /data/nginx/www/adopen/protected/extensions/CSmarty.php(2): require_once()
+#2 /data/nginx/www/framework/YiiBase.php(321): require()
+#3 /data/nginx/www/framework/YiiBase.php(196): import()
+#4 /data/nginx/www/framework/base/CModule.php(393): createComponent()
+#5 /data/nginx/www/framework/base/CModule.php(103): CWebApplication->getComponent()
+#6 /data/nginx/www/adopen/protected/components/Controller.php(15): CWebApplication->__get()
+#7 /data/nginx/www/framework/web/CWebApplication.php(281): SiteController->init()
+#8 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php (85)
+in /data/nginx/www/adopen/protected/extensions/CSmarty.php (2)
+in /data/nginx/www/adopen/protected/components/Controller.php (15)
+2016/05/08 16:26:40 [error] [php] include(Smarty_Internal_Data.php): failed to open stream: No such file or directory (/data/nginx/www/framework/YiiBase.php:432)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(85): spl_autoload_call()
+#1 /data/nginx/www/adopen/protected/extensions/CSmarty.php(2): require_once()
+#2 /data/nginx/www/framework/YiiBase.php(321): require()
+#3 /data/nginx/www/framework/YiiBase.php(196): import()
+#4 /data/nginx/www/framework/base/CModule.php(393): createComponent()
+#5 /data/nginx/www/framework/base/CModule.php(103): CWebApplication->getComponent()
+#6 /data/nginx/www/adopen/protected/components/Controller.php(15): CWebApplication->__get()
+#7 /data/nginx/www/framework/web/CWebApplication.php(281): SiteController->init()
+#8 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php (85)
+in /data/nginx/www/adopen/protected/extensions/CSmarty.php (2)
+in /data/nginx/www/adopen/protected/components/Controller.php (15)
+2016/05/08 16:28:25 [error] [php] include(Smarty_Internal_Data.php): failed to open stream: No such file or directory (/data/nginx/www/framework/YiiBase.php:432)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(85): spl_autoload_call()
+#1 /data/nginx/www/adopen/protected/extensions/CSmarty.php(2): require_once()
+#2 /data/nginx/www/framework/YiiBase.php(321): require()
+#3 /data/nginx/www/framework/YiiBase.php(196): import()
+#4 /data/nginx/www/framework/base/CModule.php(393): createComponent()
+#5 /data/nginx/www/framework/base/CModule.php(103): CWebApplication->getComponent()
+#6 /data/nginx/www/adopen/protected/components/Controller.php(15): CWebApplication->__get()
+#7 /data/nginx/www/framework/web/CWebApplication.php(281): SiteController->init()
+#8 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php (85)
+in /data/nginx/www/adopen/protected/extensions/CSmarty.php (2)
+in /data/nginx/www/adopen/protected/components/Controller.php (15)
+2016/05/08 16:31:07 [error] [php] include(Smarty_Internal_Data.php): failed to open stream: No such file or directory (/data/nginx/www/framework/YiiBase.php:432)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(85): spl_autoload_call()
+#1 /data/nginx/www/adopen/protected/extensions/CSmarty.php(2): require_once()
+#2 /data/nginx/www/framework/YiiBase.php(321): require()
+#3 /data/nginx/www/framework/YiiBase.php(196): import()
+#4 /data/nginx/www/framework/base/CModule.php(393): createComponent()
+#5 /data/nginx/www/framework/base/CModule.php(103): CWebApplication->getComponent()
+#6 /data/nginx/www/adopen/protected/components/Controller.php(15): CWebApplication->__get()
+#7 /data/nginx/www/framework/web/CWebApplication.php(281): SiteController->init()
+#8 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php (85)
+in /data/nginx/www/adopen/protected/extensions/CSmarty.php (2)
+in /data/nginx/www/adopen/protected/components/Controller.php (15)
+2016/05/08 16:31:08 [error] [php] include(Smarty_Internal_Data.php): failed to open stream: No such file or directory (/data/nginx/www/framework/YiiBase.php:432)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(85): spl_autoload_call()
+#1 /data/nginx/www/adopen/protected/extensions/CSmarty.php(2): require_once()
+#2 /data/nginx/www/framework/YiiBase.php(321): require()
+#3 /data/nginx/www/framework/YiiBase.php(196): import()
+#4 /data/nginx/www/framework/base/CModule.php(393): createComponent()
+#5 /data/nginx/www/framework/base/CModule.php(103): CWebApplication->getComponent()
+#6 /data/nginx/www/adopen/protected/components/Controller.php(15): CWebApplication->__get()
+#7 /data/nginx/www/framework/web/CWebApplication.php(281): SiteController->init()
+#8 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php (85)
+in /data/nginx/www/adopen/protected/extensions/CSmarty.php (2)
+in /data/nginx/www/adopen/protected/components/Controller.php (15)
+2016/05/08 16:31:53 [error] [php] include(Smarty_Internal_Data.php): failed to open stream: No such file or directory (/data/nginx/www/framework/YiiBase.php:432)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(85): spl_autoload_call()
+#1 /data/nginx/www/adopen/protected/extensions/CSmarty.php(2): require_once()
+#2 /data/nginx/www/framework/YiiBase.php(321): require()
+#3 /data/nginx/www/framework/YiiBase.php(196): import()
+#4 /data/nginx/www/framework/base/CModule.php(393): createComponent()
+#5 /data/nginx/www/framework/base/CModule.php(103): CWebApplication->getComponent()
+#6 /data/nginx/www/adopen/protected/components/Controller.php(15): CWebApplication->__get()
+#7 /data/nginx/www/framework/web/CWebApplication.php(281): SiteController->init()
+#8 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php (85)
+in /data/nginx/www/adopen/protected/extensions/CSmarty.php (2)
+in /data/nginx/www/adopen/protected/components/Controller.php (15)
+2016/05/08 16:32:06 [error] [php] include(Smarty_Internal_Data.php): failed to open stream: No such file or directory (/data/nginx/www/framework/YiiBase.php:432)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(85): spl_autoload_call()
+#1 /data/nginx/www/adopen/protected/extensions/CSmarty.php(2): require_once()
+#2 /data/nginx/www/framework/YiiBase.php(321): require()
+#3 /data/nginx/www/framework/YiiBase.php(196): import()
+#4 /data/nginx/www/framework/base/CModule.php(393): createComponent()
+#5 /data/nginx/www/framework/base/CModule.php(103): CWebApplication->getComponent()
+#6 /data/nginx/www/adopen/protected/components/Controller.php(15): CWebApplication->__get()
+#7 /data/nginx/www/framework/web/CWebApplication.php(281): SiteController->init()
+#8 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php (85)
+in /data/nginx/www/adopen/protected/extensions/CSmarty.php (2)
+in /data/nginx/www/adopen/protected/components/Controller.php (15)
+2016/05/08 16:36:24 [error] [php] include(Smarty_Internal_Data.php): failed to open stream: No such file or directory (/data/nginx/www/framework/YiiBase.php:432)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(85): spl_autoload_call()
+#1 /data/nginx/www/adopen/protected/extensions/CSmarty.php(2): require_once()
+#2 /data/nginx/www/framework/YiiBase.php(321): require()
+#3 /data/nginx/www/framework/YiiBase.php(196): import()
+#4 /data/nginx/www/framework/base/CModule.php(393): createComponent()
+#5 /data/nginx/www/framework/base/CModule.php(103): CWebApplication->getComponent()
+#6 /data/nginx/www/adopen/protected/components/Controller.php(15): CWebApplication->__get()
+#7 /data/nginx/www/framework/web/CWebApplication.php(281): SiteController->init()
+#8 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php (85)
+in /data/nginx/www/adopen/protected/extensions/CSmarty.php (2)
+in /data/nginx/www/adopen/protected/components/Controller.php (15)
+2016/05/08 16:37:59 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'index.tpl'' in /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_template.php:163
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_template.php(541): Smarty_Internal_Template->isExisting(true)
+#1 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(337): Smarty_Internal_Template->getRenderedTemplate()
+#2 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(381): Smarty->fetch('index.tpl', NULL, NULL, NULL, true)
+#3 /data/nginx/www/adopen/protected/controllers/SiteController.php(32): Smarty->display('index.tpl')
+#4 /data/nginx/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#5 /data/nginx/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /data/nginx/www/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /data/nginx/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /data/nginx/www/framework/web/CWebApplication.php(282): CController->run('')
+#9 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#10 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /data/nginx/www/adopen/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php
+---
+2016/05/08 16:43:13 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'debug.tpl'' in /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_template.php:163
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_template.php(541): Smarty_Internal_Template->isExisting(true)
+#1 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(337): Smarty_Internal_Template->getRenderedTemplate()
+#2 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(381): Smarty->fetch('debug.tpl', NULL, NULL, NULL, true)
+#3 /data/nginx/www/adopen/protected/controllers/SiteController.php(32): Smarty->display('debug.tpl')
+#4 /data/nginx/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#5 /data/nginx/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /data/nginx/www/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /data/nginx/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /data/nginx/www/framework/web/CWebApplication.php(282): CController->run('')
+#9 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#10 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /data/nginx/www/adopen/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php
+---
+2016/05/08 16:44:31 [error] [php] rename(/tmp/wrtZyBiZG,/data/nginx/www/adopen/protected/views/template_c/1b55c407f333e15028b58b0cfa9ce18b81265632.file.debug.tpl.cache.php): Permission denied (/data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_write_file.php:48)
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_template.php(413): Smarty_Internal_Template->compileTemplateSource()
+#1 /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_template.php(558): Smarty_Internal_Template->renderTemplate()
+#2 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(337): Smarty_Internal_Template->getRenderedTemplate()
+#3 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(381): CSmarty->fetch()
+#4 /data/nginx/www/adopen/protected/controllers/SiteController.php(32): CSmarty->display()
+#5 /data/nginx/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#6 /data/nginx/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /data/nginx/www/framework/web/CController.php(286): SiteController->runAction()
+#8 /data/nginx/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#9 /data/nginx/www/framework/web/CWebApplication.php(282): SiteController->run()
+#10 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /data/nginx/www/adopen/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_write_file.php (48)
+in /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_template.php (272)
+in /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_template.php (413)
+2016/05/08 16:46:25 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'indext/index.tpl'' in /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_template.php:163
+Stack trace:
+#0 /data/nginx/www/adopen/protected/extensions/smarty/sysplugins/smarty_internal_template.php(541): Smarty_Internal_Template->isExisting(true)
+#1 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(337): Smarty_Internal_Template->getRenderedTemplate()
+#2 /data/nginx/www/adopen/protected/extensions/smarty/Smarty.class.php(381): Smarty->fetch('indext/index.tp...', NULL, NULL, NULL, true)
+#3 /data/nginx/www/adopen/protected/controllers/SiteController.php(32): Smarty->display('indext/index.tp...')
+#4 /data/nginx/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#5 /data/nginx/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /data/nginx/www/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /data/nginx/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /data/nginx/www/framework/web/CWebApplication.php(282): CController->run('')
+#9 /data/nginx/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#10 /data/nginx/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /data/nginx/www/adopen/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php
+---
